@@ -32,12 +32,13 @@ SOURCES += libIOctoMap.cpp
 HEADERS += libIOctoMap.h\
         libioctomap_global.h
 
-OCTOMAP_PATH=E:/Librerias/octomap-1.9.0/install
+#OCTOMAP_PATH=E:/Librerias/octomap-1.9.0/install
+OCTOMAP_PATH = ./../../../depends/octomap-1.9.0/install
 
 INCLUDEPATH += $$OCTOMAP_PATH/include
 
-DESTDIR_RELEASE=C:\dev\release
-DESTDIR_DEBUG=C:\dev\debug
+DESTDIR_RELEASE= ./../../../build/release
+DESTDIR_DEBUG= ./../../../build/debug
 #DESTDIR_RELEASE=C:\dev\release\PCL
 #DESTDIR_DEBUG=C:\dev\debug\PCL
 #OSGEO4W_PATH="C:\Program Files\QGIS Essen"
